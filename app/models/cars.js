@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
         get() {
           const image = this.getDataValue('image')
           return image
-            ? 'https://challenge-7-tim5-backend.herokuapp.com' +
+            ? 'https://challenge-7-backend.herokuapp.com' +
                 image.substring(1)
             : null
         },
